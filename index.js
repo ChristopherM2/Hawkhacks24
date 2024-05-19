@@ -1,7 +1,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
-const  token  = 'NzM5Njk5ODIyOTIzMDg3OTYz.G1OTGQ.cxgH61m1ObGa4UUxKX3Ic5cqulSKwYZBsJMBDI';
+const config = require('./Commands/nest that shi/config.json')
+const  token  = config.token;
 const { MongoClient, ServerApiVersion } = require("mongodb");
 const client = new Client({ intents: [GatewayIntentBits.Guilds,'GuildMessages','MessageContent'] });
 
