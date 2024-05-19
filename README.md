@@ -1,0 +1,1 @@
+This was a Discord bot coded by Christopher Matheson, Rahnuma Haque, Gurkarman Reen, and me Aidan Lin! It's an idle farming game where your crops grow over time, you are able to get money from selling in which you can purchase upgrades to increase your profit. This project was done for Hawk Hacks 2024 and won "Best Use of MongoDB Atlas" :)
